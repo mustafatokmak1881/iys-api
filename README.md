@@ -1,2 +1,62 @@
-# iys
-İleti Yönetim Sistemi Entegrasyonunu kolaylaştıran npm paketidir.
+Nedir ?
+
+İleti Yönetim Sistemi Entegrasyonunu kolaylaştırır.
+
+Yükleme
+
+npm i iys --save
+
+
+Sonra ....
+
+
+const iys = require('iys');
+
+iys.init({
+    "username": "de806b85-8c7f-4fc2-8610-4450abe55ba3",
+    "password": "Te)?xn|lVv?0",
+    "grant_type": "password",
+    "iysCode":669563,
+    "brandCode": 669563,
+    "status": "DEMO"// DEMO or LIVE
+}).then(r => {
+    //Durumu değiştirir.
+    iys.set_status({
+        "type": "MESAJ",
+        "source": "HS_WEB",
+        "recipient": "+905535554433", // sample: +905532123812
+        "status": "ONAY", // sample: ONAY or RET
+        "consentDate": iys.convertToConsentDateFormat(), //Sample "2021-09-04 19:46:56"
+        "recipientType": "BIREYSEL"
+    })
+    .then(response => {
+        console.log( {set_status:response.data} );
+    })
+    .catch(response=>{
+        console.log( response.response.data.errors);
+    });
+
+    //Son durumu görüntüler
+    iys.get_status({
+        "type": "MESAJ",
+        "recipient": "+905532123812", // sample: +905532123812
+        "recipientType": "BIREYSEL"
+    }) 
+    .then(response => {
+        console.log( {get_status:response.data} );
+    })
+    .catch(response => {
+        console.log( response.response.data.errors );
+    });
+}).catch(response => {
+    console.log( response );
+});
+
+
+
+Seçenekler
+
+Bu modülde iki metot kullanılır.
+
+- get_status ile son durum görüntülenir.
+- set_status ile durum, ONAY ya da RET olarak ayarlanır.
