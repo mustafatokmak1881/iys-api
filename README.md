@@ -5,7 +5,7 @@
 
 # Installation
 ```
-npm i iys --save
+npm i iys-api --save
 ```
 
 # Usage
