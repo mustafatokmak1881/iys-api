@@ -1,13 +1,13 @@
-NEDİR ?
-
+# What is this ?
 İleti Yönetim Sistemi Entegrasyonunu kolaylaştırır.
 
-Installation
-
+# Installation
 npm i iys --save
 
+# Then ...
 
-KULLANIM:
+
+...
 
 const iys = require('iys');
 
@@ -51,9 +51,9 @@ iys.init({
     console.log( response );
 });
 
+...
 
-
-Seçenekler
+# Options
 
 Bu modülde iki metot kullanılır.
 
