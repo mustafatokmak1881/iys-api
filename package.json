@@ -1,7 +1,7 @@
 {
   "name": "iys-api",
-  "version": "1.0.0",
-  "description": "İleti Yönetim Sistemi Entegrasyonunu kolaylaştıran npm paketidir.",
+  "version": "1.0.1",
+  "description": "İleti Yönetim Sistemi Entegrasyonu için npm paketidir.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhmttkmk0352/iys.git"
+    "url": "git+https://github.com/mhmttkmk0352/iys-api.git"
   },
   "keywords": [
     "iys",
@@ -19,9 +19,9 @@
   "author": "Mehmet TOKMAK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mhmttkmk0352/iys/issues"
+    "url": "https://github.com/mhmttkmk0352/iys-api/issues"
   },
-  "homepage": "https://github.com/mhmttkmk0352/iys#readme",
+  "homepage": "https://github.com/mhmttkmk0352/iys-api#readme",
   "dependencies": {
     "axios": "^0.21.2"
   }
