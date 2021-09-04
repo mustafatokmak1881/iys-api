@@ -6,9 +6,7 @@ npm i iys --save
 
 # Then ...
 
-
 ...
-
 const iys = require('iys');
 
 iys.init({
@@ -50,15 +48,14 @@ iys.init({
 }).catch(response => {
     console.log( response );
 });
-
 ...
 
 # Options
 
 Bu modülde iki metot kullanılır.
 
-- set_status ile durum, ONAY ya da RET olarak ayarlanır.
-- get_status ile son durum görüntülenir.
+* set_status ile durum, ONAY ya da RET olarak ayarlanır.
+* get_status ile son durum görüntülenir.
 
 
 Not: Durum ilk defa girilecekse RET olamaz.
