@@ -1,5 +1,5 @@
 {
-  "name": "iys",
+  "name": "iys-api",
   "version": "1.0.0",
   "description": "İleti Yönetim Sistemi Entegrasyonunu kolaylaştıran npm paketidir.",
   "main": "index.js",
