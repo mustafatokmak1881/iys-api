@@ -2,13 +2,14 @@
 # What is this ?
 İleti Yönetim Sistemi Entegrasyonunu kolaylaştırır.
 
+
 # Installation
+```
 npm i iys --save
-
-# Then ...
-
 ```
 
+# Usage
+```
 const iys = require('iys');
 
 iys.init({
@@ -50,8 +51,9 @@ iys.init({
 }).catch(response => {
     console.log( response );
 });
-
 ```
+
+
 
 # Options
 
