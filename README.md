@@ -5,12 +5,12 @@
 
 # Installation
 ```
-npm i iys --save
+npm i iys-api --save
 ```
 
 # Usage
 ```
-const iys = require('iys');
+const iys = require('iys-api');
 
 iys.init({
     "username": "de806b85-8c7f-4fc2-8610-4450abe55ba3",
