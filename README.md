@@ -20,6 +20,7 @@ iys.init({
     "brandCode": 669563,
     "status": "DEMO"// DEMO or LIVE
 }).then(r => {
+
     //Durumu değiştirir.
     iys.set_status({
         "type": "MESAJ",
@@ -48,6 +49,7 @@ iys.init({
     .catch(response => {
         console.log( response.response.data.errors );
     });
+    
 }).catch(response => {
     console.log( response );
 });
