@@ -63,4 +63,30 @@ Bu modülde iki metot kullanılır.
 * get_status ile son durum görüntülenir.
 
 
-Not: Durum ilk defa girilecekse RET olamaz.
+Not: 
+* Durum ilk defa girilecekse RET olamaz.
+* Varsayılan olarak demo bilgileri ile çalışır. Canlıya almak için status "LIVE olarak değiştirilmelidir".
+
+
+# Sample Response
+```
+{
+  get_status: {
+    type: 'MESAJ',
+    source: 'HS_WEB',
+    recipient: '+9055xxxxxxxx',
+    status: 'RET',
+    consentDate: '2021-09-04 19:59:58',
+    recipientType: 'BIREYSEL',
+    creationDate: '2021-09-04 20:59:11',
+    retailerAccessCount: 0,
+    transactionId: '1cd1e05fb8393773ab8ffbe38869738cd2309ec89b1c24905e707c0475a348fe'
+  }
+}
+{
+  set_status: {
+    transactionId: 'f90b6c9c7ff30e485f630b066720c20bdbab5fa7d4482a1a3ec1106f9aef4a08',
+    creationDate: '2021-09-04 21:36:49'
+  }
+}
+```
