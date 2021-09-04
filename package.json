@@ -1,6 +1,6 @@
 {
   "name": "iys-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "İleti Yönetim Sistemi Entegrasyonu için npm paketidir.",
   "main": "index.js",
   "scripts": {
