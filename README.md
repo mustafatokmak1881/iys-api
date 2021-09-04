@@ -2,6 +2,9 @@
 # What is this ?
 İleti Yönetim Sistemi Entegrasyonunu kolaylaştırır.
 
+# SampleScreen
+![image](https://user-images.githubusercontent.com/33135266/132106672-e2d2b091-7ceb-4732-b0bc-91478df16775.png)
+
 
 # Installation
 ```
