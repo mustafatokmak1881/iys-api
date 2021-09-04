@@ -104,7 +104,7 @@ class Iys {
 
 
 
-module.exports = Iys;
+module.exports = new Iys;
 
 
 
