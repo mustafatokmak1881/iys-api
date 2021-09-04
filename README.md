@@ -24,7 +24,7 @@ iys.init({
     iys.set_status({
         "type": "MESAJ",
         "source": "HS_WEB",
-        "recipient": "+905535554433", // sample: +905532123812
+        "recipient": "+9055xxxxxxxx", // sample: +9055xxxxxxxx
         "status": "ONAY", // sample: ONAY or RET
         "consentDate": iys.convertToConsentDateFormat(), //Sample "2021-09-04 19:46:56"
         "recipientType": "BIREYSEL"
@@ -39,7 +39,7 @@ iys.init({
     //Son durumu görüntüler
     iys.get_status({
         "type": "MESAJ",
-        "recipient": "+905532123812", // sample: +905532123812
+        "recipient": "+9055xxxxxxxx", // sample: +9055xxxxxxxx
         "recipientType": "BIREYSEL"
     }) 
     .then(response => {
