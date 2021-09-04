@@ -2,13 +2,12 @@ NEDİR ?
 
 İleti Yönetim Sistemi Entegrasyonunu kolaylaştırır.
 
-YÜKLEME:
+Installation
 
 npm i iys --save
 
 
 KULLANIM:
-
 
 const iys = require('iys');
 
