@@ -65,7 +65,7 @@ Bu modülde iki metot kullanılır.
 
 Not: 
 * Durum ilk defa girilecekse RET olamaz.
-* Varsayılan olarak demo bilgileri ile çalışır. Canlıya almak için status "LIVE olarak değiştirilmelidir".
+* Varsayılan olarak demo bilgileri ile çalışır. Canlıya almak için gerçek api bilgileri girilmeli ve status "LIVE olarak değiştirilmelidir".
 
 
 # Sample Response
