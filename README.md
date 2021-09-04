@@ -7,7 +7,8 @@ npm i iys --save
 
 # Then ...
 
-...
+```
+
 const iys = require('iys');
 
 iys.init({
@@ -49,7 +50,8 @@ iys.init({
 }).catch(response => {
     console.log( response );
 });
-...
+
+```
 
 # Options
 
