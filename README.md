@@ -1,13 +1,13 @@
-Nedir ?
+NEDİR ?
 
 İleti Yönetim Sistemi Entegrasyonunu kolaylaştırır.
 
-Yükleme
+YÜKLEME:
 
 npm i iys --save
 
 
-Sonra ....
+KULLANIM:
 
 
 const iys = require('iys');
@@ -58,5 +58,8 @@ Seçenekler
 
 Bu modülde iki metot kullanılır.
 
-- get_status ile son durum görüntülenir.
 - set_status ile durum, ONAY ya da RET olarak ayarlanır.
+- get_status ile son durum görüntülenir.
+
+
+Not: Durum ilk defa girilecekse RET olamaz.
